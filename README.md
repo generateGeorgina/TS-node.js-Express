@@ -42,4 +42,5 @@ Following: https://blog.logrocket.com/how-to-set-up-node-typescript-express/
 
 15. You may add a nodemon config file `nodemon.json`, but I chose not to
 
-16. compile TS code to JS
+16. compile TS code to JS - make sure to exit your dev server first (ctrl+ C)
+    `npm run build`
