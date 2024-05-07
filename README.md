@@ -23,9 +23,9 @@ Following: https://blog.logrocket.com/how-to-set-up-node-typescript-express/
 
 9. rename the file from `index.js` in the src directory to `index.ts`
 
-10. Add TypeScript sertver logic in place of original index.js code
+10. Add TypeScript server logic in place of original index.js code
 
-11. Running step for produces a "cannot find module" error
+11. Running step 4 produces a "cannot find module" error
     `node src/index.js`
 
 12. add the utility library nodemon to auto-restart server when saved changes are detected and install ts-node to implement a TypeScript implementation environment for Node (as node.js does not supported by default)
